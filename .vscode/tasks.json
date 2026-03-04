@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Current Java File",
+			"type": "shell",
+			"command": "sh",
+			"args": [
+				"-c",
+				"java ${file} > output.txt 2>&1"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"detail": "Run the currently open Java file without generating .class files.",
+			"options": {
+				"cwd": "${workspaceFolder}"
+			}
+		}
+	]
+}

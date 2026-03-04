@@ -1,0 +1,1 @@
+echo "Java is powerful. Java is fast. Kali Linux loves Java." > data.txt
