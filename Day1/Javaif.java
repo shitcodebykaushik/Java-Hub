@@ -15,17 +15,10 @@ public static void main (String[] args) {
     // Capture the user input and stroe it in a string varibale 
 
     String userInput = input.nextLine();
-
     System.out.print(userInput);
-
    input.close();
-
-
-
    Scanner input1  = new Scanner(System.in);
-
-   System userINput = input1.nextLine();
-
-
+   String userINput = input1.nextLine();
+   
 };   
 };
